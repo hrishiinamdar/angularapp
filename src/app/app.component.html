@@ -1,0 +1,31 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <base href="/">
+</head>
+<body>
+  <div id="imageAngular"></div>
+  <div>
+  <ul>
+    <li><a class="active" routerLink="home">Home</a></li>
+    <li><a routerLink="places">Places</a></li>
+    <li><a routerLink="contact">Contact</a></li>
+    <li><a routerLink="about">About</a></li>
+  </ul>
+</div>
+<div style="text-align:center">
+  <h1>
+     {{ title | uppercase}}!
+  </h1>
+   <h2>
+     {{info}}
+   </h2>
+
+  
+</div>
+<router-outlet></router-outlet>
+</body>
+</html>
+
